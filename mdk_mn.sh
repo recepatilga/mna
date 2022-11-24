@@ -30,4 +30,4 @@ chmod 777 /root/AutoRclone/autoClone/autoClone.sh
 screen -dmS madmax
 screen -S madmax -X stuff  "/root/AutoRclone/autoClone/madmax.sh^M" 
 screen -dmS  clone
-screen -S clone -X stuff  "/root/AutoRclone/autoClone/autoClone.sh disk2 UP 3^M"
+screen -S clone -X stuff  "/root/AutoRclone/autoClone/autoClone.sh disk2 UP 1^M"
