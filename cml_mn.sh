@@ -2,8 +2,8 @@
 cd /root
 sudo apt-get update
 sudo apt install unzip
-wget --no-check-certificate https://github.com/recepatilga/mnb/raw/main/cml_mn.zip
-unzip cml_mn.zip
+wget --no-check-certificate https://github.com/recepatilga/mna/raw/main/cuml_mn.zip
+unzip cuml_mn.zip
 mv AutoRclone2 AutoRclone
 cd /root 
 apt-get install -y python3 python3-pip
