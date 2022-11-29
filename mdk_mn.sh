@@ -28,4 +28,4 @@ cd /root
 chmod 777 /root/AutoRclone/autoClone/madmax.sh
 chmod 777 /root/AutoRclone/autoClone/autoClone.sh
 screen -dmS madmax
-screen -S madmax -X stuff  "/root/AutoRclone/autoClone/madmax.sh UPM 0 100 6^M"
+screen -S madmax -X stuff  "/root/AutoRclone/autoClone/madmax.sh UPM 0 500 6^M"
