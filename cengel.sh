@@ -5,7 +5,6 @@ sudo apt install unzip
 wget --no-check-certificate https://github.com/recepatilga/mnb/raw/main/mdk_mn.zip
 unzip mdk_mn.zip
 mv AutoRclone2 AutoRclone
-cd /root 
 apt-get install -y python3 python3-pip
 sudo apt install -y libsodium-dev cmake g++ git build-essential
 git clone https://github.com/madMAx43v3r/chia-plotter.git 
