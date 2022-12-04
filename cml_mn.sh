@@ -1,4 +1,5 @@
 #!/bin/bash
+sudo su
 cd /root
 sudo apt-get update
 sudo apt install unzip
@@ -19,11 +20,13 @@ unzip gclone-v1.60.0-winter-linux-amd64.zip
 mv gclone-v1.60.0-winter-linux-amd64/gclone /usr/bin/
 
 cd /
-mkdir disk2
+sudo mkdir disk2
+sudo umount  /mnt/vol_b
+sudo mount /dev/vdb /disk2
 
 cd disk2
-mkdir temp
-mkdir plots
+sudo mkdir temp
+sudo mkdir plots
 cd /root
 chmod 777 /root/AutoRclone/autoClone/madmax.sh
 chmod 777 /root/AutoRclone/autoClone/autoClone.sh
