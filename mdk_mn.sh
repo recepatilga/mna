@@ -26,6 +26,7 @@ mkdir temp
 mkdir plots
 cd /root
 chmod 777 /root/AutoRclone/autoClone/madmax.sh
+chmod 777 /root/AutoRclone/autoClone/madmax_ram.sh
 chmod 777 /root/AutoRclone/autoClone/autoClone.sh
 screen -dmS madmax
-screen -S madmax -X stuff  "/root/AutoRclone/autoClone/madmax.sh UPM 0 200 6^M"
+screen -S madmax -X stuff  "/root/AutoRclone/autoClone/madmax$3.sh UP 0 100 8 $1 $2 ^M" 
